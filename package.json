@@ -4,6 +4,7 @@
   "description": "GoRelic Web Application",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ShyamRaj/GoRelic/issues"
   },
-  "homepage": "https://github.com/ShyamRaj/GoRelic#readme"
+  "homepage": "https://github.com/ShyamRaj/GoRelic#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }
