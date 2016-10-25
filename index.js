@@ -12,4 +12,10 @@ app.use(bodyParser.urlencoded({"extended" : false}));
 
 app.use(router);
 
-app.listen(8080);
+app.get('*',function (req, res) {
+  res.redirect('/');
+});
+
+app.listen(8080,function(){
+  console.log('express server listening on port 8080');
+});
