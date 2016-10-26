@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node bin/http-server"
+    "forever:start": "forever start ./forever/dev.json && npm run forever:list",
+    "forever:stop": "forever cleanup",
+    "forever:stopall": "forever stopall",
+    "forever:list": "forever list",
+    "forever:multi": "node ./forever/multistart.js --count 5 && npm run forever:list"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,8 @@
   "devDependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
+  },
+  "dependencies": {
+    "yargs": "^6.3.0"
   }
 }

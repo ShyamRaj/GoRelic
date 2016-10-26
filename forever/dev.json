@@ -1,0 +1,10 @@
+{
+  "uid": "GoRelic-Forever-dev",
+  "append": true,
+  "watch": true,
+  "script": "index.js",
+  "args": [
+    "-p=8080"
+  ],
+  "sourceDir": "/Users/kon2690/projects/GoRelic/"
+}
