@@ -6,5 +6,5 @@
   "args": [
     "-p=8080"
   ],
-  "sourceDir": "/Users/kon2690/projects/GoRelic/"
+  "sourceDir": "./"
 }
