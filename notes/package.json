@@ -1,0 +1,52 @@
+{
+  "name": "angular2seed",
+  "version": "1.0.0",
+  "description": "My Angular2 Seed for custom projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --watch --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShyamRaj/Angular2-Seed.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular2",
+    "seed",
+    "angular2",
+    "webpack"
+  ],
+  "author": "Shyam Raj <shyam@gorelic.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShyamRaj/Angular2-Seed/issues"
+  },
+  "homepage": "https://github.com/ShyamRaj/Angular2-Seed#readme",
+  "dependencies": {
+    "@angular/common": "^2.1.2",
+    "@angular/compiler": "^2.1.2",
+    "@angular/core": "^2.1.2",
+    "@angular/http": "^2.1.2",
+    "@angular/platform-browser": "^2.1.2",
+    "@angular/platform-browser-dynamic": "^2.1.2",
+    "@angular/router": "^3.1.2",
+    "@angular/upgrade": "^2.1.2",
+    "core-js": "^2.4.1",
+    "lodash": "^4.16.5",
+    "rxjs": "^5.0.0-rc.1",
+    "zone.js": "^0.6.26"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/lodash": "^4.14.38",
+    "@types/node": "^6.0.46",
+    "awesome-typescript-loader": "^2.2.4",
+    "html-webpack-plugin": "^2.24.1",
+    "ts-helpers": "^1.1.2",
+    "typescript": "^2.0.6",
+    "webpack": "^v2.1.0-beta.25",
+    "webpack-dev-server": "^v2.1.0-beta.10"
+  }
+}
